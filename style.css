@@ -1,0 +1,155 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 0 96px;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+    margin-bottom: 48px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    gap: 16px;
+}
+
+li, .subtext1 {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.title1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.right1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    background-color: #E5E7EB;
+
+    width: 60vw;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    padding: 48px;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+
+.title2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    gap: 16px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+}
+
+.card {
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #3882F6;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    padding: 96px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.author {
+    /* align-items: flex-end; */
+    align-self: end;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.section4 {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    margin: 96px;
+    padding: 48px;
+    gap: 48px;
+    border-radius: 10px;
+}
+
+.title4 {
+    font-weight: 800;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.subtext4 {
+    font-weight: 200;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    border-radius: 4px;
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+    color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 24px;
+}
